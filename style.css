@@ -1,0 +1,66 @@
+body {
+    font-size: 16px;
+    width: 360px;
+    margin: 0 auto;
+}
+.sr-only {
+    text-indent: 9999em;
+    overflow: hidden;
+}
+
+
+nav {
+    background-color: #acd373;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.06);
+}
+.logo {
+    background-image: url('img/logo.png');
+    width: 70px;
+    height: 23px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.toggle {
+    background: #89a85c url('img/toggle.png') no-repeat center center;
+    width: 11px;
+    height: 10px;
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+
+
+
+.intro {
+    color: #f7f7f7;
+    height: 350px;
+    background: #9abd67 url('img/skyline.png') no-repeat bottom center;
+}
+.intro > div {
+    text-align: center;
+    padding-top: 125px;
+}
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.arrow {
+    background-image: url('img/arrow.png');
+    width: 25px;
+    height: 14px;
+    display: inline-block;
+    margin-top: 57px;
+}
