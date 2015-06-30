@@ -1,0 +1,63 @@
+@media all and (min-width: 700px) {
+    body {
+        min-width: 935px;
+    }
+    
+    .toggle {
+        display: none;
+    }
+    
+    .content {
+        max-width: 1172px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    nav {
+        height: 106px;
+        line-height: 106px;
+    }
+    nav .main {
+        display: inline-block;
+        float: right;
+    }
+    nav .main a {
+        color: #f7f7f7;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin: 0 14px;
+    }
+    nav .main a.active {
+        border-bottom: 3px solid white;
+    }
+    nav .logo {
+        margin-top: 20px;
+    }
+    nav .logo img {
+        height: auto;
+    }
+    
+    .intro {
+        background-size: auto auto;
+        height: 700px;
+    }
+    .intro h1 {
+        font-size: 48px;
+    }
+    .intro h2 {
+        font-size: 24px;
+    }
+    .intro > div {
+        padding-top: 230px;
+    }
+    .arrow {
+        margin-top: 132px;
+    }
+    .arrow img {
+        height: auto;
+    }
+}

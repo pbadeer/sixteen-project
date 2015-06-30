@@ -1,7 +1,6 @@
 body {
     font-size: 16px;
-    width: 360px;
-    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .sr-only {
     text-indent: 9999em;
@@ -15,11 +14,17 @@ nav {
     line-height: 40px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.06);
 }
+nav .main {
+    display: none;
+}
 .logo {
     display: inline-block;
     vertical-align: top;
     margin-left: 30px;
     margin-top: 8px;
+}
+.logo img {
+    height: 25px;
 }
 .toggle {
     background-color: #89a85c;
@@ -34,6 +39,7 @@ nav {
     color: #f7f7f7;
     height: 350px;
     background: #9abd67 url('img/skyline.png') no-repeat bottom center;
+    background-size: auto 85px;
 }
 .intro > div {
     text-align: center;
@@ -55,4 +61,7 @@ h2 {
 .arrow {
     display: inline-block;
     margin-top: 57px;
+}
+.arrow img {
+    height: 14px;
 }
