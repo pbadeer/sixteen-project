@@ -32,7 +32,8 @@
         text-transform: uppercase;
         margin: 0 14px;
     }
-    nav .main a.active {
+    nav .main a.active,
+    nav .main a:hover {
         border-bottom: 3px solid white;
     }
     nav .logo {
@@ -48,6 +49,7 @@
     }
     .intro h1 {
         font-size: 48px;
+        font-weight: 900;
     }
     .intro h2 {
         font-size: 24px;
