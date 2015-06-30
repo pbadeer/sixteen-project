@@ -17,6 +17,7 @@
     nav {
         height: 106px;
         line-height: 106px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.06);
     }
     nav .main {
         display: inline-block;
